@@ -95,7 +95,7 @@ describe('Login e registro de usuarios alura pic', () => {
       })
 
       it('login com usuario invalido', () => {
-        cy.login(`nadja` , `123`)
+        cy.login(`nadja` , `1234`)
         cy.contains(`ap-vmessage`, `User name is required!`).should(`be.visible`);
         cy.contains(`ap-vmessage`, `Password is required!`).should(`be.visible`);
 
