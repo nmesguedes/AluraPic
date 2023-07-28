@@ -7,5 +7,6 @@
     "json": false,
     "timestamp": "mmddyyyy_HHMMss"
   },
-  "projectId": "o68kpw"
+  "projectId": "o68kpw",
+  "baseUrl": "http://localhost:4200/#/home"
 }
